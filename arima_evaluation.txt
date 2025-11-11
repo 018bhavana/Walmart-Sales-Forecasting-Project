@@ -1,0 +1,35 @@
+ARIMA Model Evaluation
+=========================
+MSE: 215252762.90
+RMSE: 14671.49
+MAE: 11850.93
+R² Score: -0.00
+
+Model Summary:
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:           Weekly_Sales   No. Observations:                 8000
+Model:                 ARIMA(2, 1, 2)   Log Likelihood              -88131.833
+Date:                Tue, 11 Nov 2025   AIC                         176273.666
+Time:                        15:50:35   BIC                         176308.602
+Sample:                    01-01-2015   HQIC                        176285.624
+                         - 11-25-2036                                         
+Covariance Type:                  opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+ar.L1         -0.9760      0.482     -2.024      0.043      -1.921      -0.031
+ar.L2         -0.0049      0.014     -0.338      0.735      -0.033       0.023
+ma.L1         -0.0282      0.481     -0.059      0.953      -0.972       0.915
+ma.L2         -0.9694      0.481     -2.016      0.044      -1.912      -0.027
+sigma2      2.471e+08    2.7e-10   9.14e+17      0.000    2.47e+08    2.47e+08
+===================================================================================
+Ljung-Box (L1) (Q):                   0.00   Jarque-Bera (JB):                 2.94
+Prob(Q):                              0.98   Prob(JB):                         0.23
+Heteroskedasticity (H):               0.98   Skew:                             0.03
+Prob(H) (two-sided):                  0.63   Kurtosis:                         2.94
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+[2] Covariance matrix is singular or near-singular, with condition number 3.53e+34. Standard errors may be unstable.

@@ -1,0 +1,5 @@
+LSTM Model Evaluation
+MSE: 215472760.40
+RMSE: 14678.99
+MAE: 11873.79
+R² Score: -0.00

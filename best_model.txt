@@ -1,0 +1,6 @@
+🏆 Best Model Summary
+Model: Prophet
+MSE: 219006528.26
+RMSE: 14798.87
+MAE: 11913.89
+R²: -0.0196
